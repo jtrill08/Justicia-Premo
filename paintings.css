@@ -368,7 +368,7 @@ footer {
 	display: none;
 	position: fixed;
 	z-index: 1;
-	padding-top: 20%;
+	padding-top: 0%;
 	left: 0;
 	top: 0;
 	width: 100%;
@@ -377,6 +377,10 @@ footer {
 	background-color:white;
   }
   
+  .mySlides {
+	display: none;
+	margin-top: 80%
+  }
   /* Modal Content */
   .modal-content {
 	position: relative;
@@ -390,14 +394,14 @@ footer {
    .next {
 	right: -50%;
 	border-radius: 3px 0 0 3px;
-	padding-top:70%;
+	margin-top:15%;
 
   }
 
   .prev{
 	left: -50%;
 	border-radius: 3px 0 0 3px;
-	padding-top:70%;
+	margin-top:15%;
 
 
   }
