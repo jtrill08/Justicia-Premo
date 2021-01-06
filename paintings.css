@@ -345,7 +345,7 @@ img{
 	margin-top: 8px;
 	vertical-align: middle;
 	width: 100%;
-	padding: 7px;
+	padding: 4px;
   }
   
   .description {
@@ -381,6 +381,7 @@ footer {
 	display: none;
 	margin-top: 50%
   }
+
   /* Modal Content */
   .modal-content {
 	position: relative;
