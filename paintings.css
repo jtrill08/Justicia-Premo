@@ -5,6 +5,9 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
 }
 
 body
@@ -12,14 +15,14 @@ body
 	display: flex;
 	justify-content:center;
 	align-items:center;
-	min-height: 100vh;
+	min-height: 90vh;
 	background:white;
 }
 .navbar{
 	position: fixed;
-	left: 0;
-	Top: 0;
-	width: 100%;
+	Top: 0%;
+	padding-top: 3.5%;
+	width: 90%;
 	z-index: 9999;
 	background-color: white;
 	color: black;
@@ -29,60 +32,31 @@ body
 	flex-direction:row;
 }
 
-.name {
-	font-size: 20px;
-	float: left;
-	margin-left: 10px;
-	margin-top: 0.25vh;
-	overflow: hidden;
+li{
+    display: inline;
+    text-align: center;
+}
 
+.name a{
+    font-size: 30px;
+}
+
+.other a{
+    padding-right: 5.4%;
+    float: right;
+    right: auto;
+    font-size: 15px;
+    margin-right: 1px;
+    margin-top: 1.5%;
+    overflow: hidden;
 }
 
 span{
 	color: rgb(3, 2, 2);
 }
 
-ul{
-	width: auto;
-	float: center;
-	margin-top: 8px;
-	color: black;
 
 
-}
-
-li{
-	display: inline-block;
-	padding: 15px 30px;
-
-}
-
-.other{
-	float: right;
-	color: black;
-	text-decoration: none;
-	font-family: Helvetica, sans-serif;
-	font-weight: bolder;
-	font-size: 20px;
-	bottom: 70px;
-	margin-right: 10px;
-	margin-top: 0.25vh;
-	overflow: hidden;
-}
-
-a{
-	text-align: center;
-	color: black;
-	text-decoration: none;
-	font-family: Helvetica, sans-serif;
-	font-weight: bolder;
-
-}
-
-a:hover{
-	color:red;
-	transition: 0.5s;
-}
 
 img{
 	width: 100%
@@ -124,12 +98,17 @@ img{
 	bottom: -58%;
 	width: 100%;
 	background-color: white;
-	text-align: center;
+	text-align: left;
+	padding-le;
 	}
 
 	footer a{
 		font-size: 1.5vh;
 	}
+
+	
+
+	
 
   /* The Modal (background) */
   .modal {
@@ -259,9 +238,9 @@ body
 }
 .navbar{
 	position: fixed;
-	left: 0;
-	Top: 0;
-	width: 100%;
+	Top: 0%;
+	padding-top: 3.5%;
+	width: 90%;
 	z-index: 9999;
 	background-color: white;
 	color: black;
@@ -271,46 +250,32 @@ body
 	flex-direction:row;
 }
 
-.name {
-	font-size: 12px;
-	float: left;
-	margin-left: 0;
-	margin-top: 0.25vh;
-	overflow: hidden;
+li{
+    display: inline;
+    text-align: center;
+}
 
+.name a{
+    font-size: 18px;
+	font-weight: normal;
+}
+
+.other a{
+    padding-right: 5.4%;
+    float: right;
+    right: auto;
+    font-size: 10px;
+	font-weight: normal;
+    margin-right: 1px;
+    margin-top: 1.5%;
+    overflow: hidden;
 }
 
 span{
 	color: rgb(3, 2, 2);
 }
 
-ul{
-	width: auto;
-	float: center;
-	margin-top: 8px;
-	color: black;
 
-
-}
-
-li{
-	display: inline-block;
-	padding: 5px 15px;
-
-}
-
-.other{
-	float: right;
-	color: black;
-	text-decoration: none;
-	font-family: Helvetica, sans-serif;
-	font-weight: bolder;
-	font-size: 12px;
-	bottom: 70px;
-	margin-right: 3px;
-	margin-top: 0.25vh;
-	overflow: hidden;
-}
 
 a{
 	text-align: center;
